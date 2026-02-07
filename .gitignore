@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Local data
+faiss_index/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
