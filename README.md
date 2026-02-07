@@ -40,3 +40,9 @@ document context**, reducing hallucinations.
 pip install -r requirements.txt
 python ingest.py
 python query.py
+
+## 🖼 Sample Output
+
+Below is an example of a question answered using retrieved document context:
+
+![RAG Output](screenshots/Screenshot 2026-02-08 014341.png")
