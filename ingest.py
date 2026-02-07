@@ -3,7 +3,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 
 def ingest():
-    loader = PyPDFLoader("data/Learning%20SQL%20Generate%2C%20Manipulate%2C%20%26%20Retrieve%20Data%203rd%20Ed.pdf")
+    loader = PyPDFLoader("data/sample_docs.pdf")
     documents = loader.load()
 
     embeddings = HuggingFaceEmbeddings(
