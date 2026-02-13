@@ -6,7 +6,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 def ingest():
     loader = PyPDFLoader("data/sample_docs.pdf")
-    documents = loader.load()
+    documents =  loader.load()
 
     #Chunking 
     splitter = RecursiveCharacterTextSplitter(
