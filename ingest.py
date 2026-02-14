@@ -8,7 +8,7 @@ def ingest():
     loader = PyPDFLoader("data/sample_docs.pdf")
     documents =  loader.load()
 
-    #Chunking 
+    #Chunking ok
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=500,
         chunk_overlap=100
