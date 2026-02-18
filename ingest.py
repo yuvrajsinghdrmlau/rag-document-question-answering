@@ -3,7 +3,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-
+#
 def ingest():
     loader = PyPDFLoader("data/sample_docs.pdf")
     documents =  loader.load()
