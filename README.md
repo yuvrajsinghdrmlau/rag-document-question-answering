@@ -14,7 +14,7 @@ document context**, reducing hallucinations.
 
 ---
 
-## 🔍 How the System Works
+ How the System Works
 
 1. Documents (PDF) are loaded and split into chunks  
 2. Each chunk is converted into vector embeddings  
@@ -23,8 +23,7 @@ document context**, reducing hallucinations.
 5. An LLM generates answers using only the retrieved context  
 
 ---
-
-## 🛠 Tech Stack
+ 🛠 Tech Stack
 
 - Python  
 - LangChain  
@@ -34,7 +33,7 @@ document context**, reducing hallucinations.
 
 ---
 
-## 🚀 How to Run
+ How to Run
 
 ```bash
 pip install -r requirements.txt
