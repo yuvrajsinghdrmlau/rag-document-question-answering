@@ -5,7 +5,7 @@ RAG combines search (retrieval) with generation (LLM) so answers are grounded in
 
 # Retrieval-Augmented Generation (RAG) – Document Q&A
 
-This project implements a **Retrieval-Augmented Generation (RAG)** pipeline
+This project implements a ** Retrieval-Augmented Generation (RAG)** pipeline
 that allows users to ask questions from their own documents using
 vector search and large language models.
 
