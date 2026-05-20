@@ -1,5 +1,5 @@
 # rag-document-question-answering
-RAG implementation for documents question answering
+RAG implementation for documents question answering 
 
 RAG combines search (retrieval) with generation (LLM) so answers are grounded in your own data, not hallucinations.
 
@@ -22,7 +22,7 @@ document context**, reducing hallucinations.
 4. Relevant chunks are retrieved for a user query  
 5. An LLM generates answers using only the retrieved context  
 
----
+--
  🛠 Tech Stack
 
 - Python  
@@ -31,8 +31,7 @@ document context**, reducing hallucinations.
 - Sentence Transformers (Embeddings)  
 - HuggingFace Transformers (LLM)  
 
----
-
+--
  How to Run
 
 ```bash
