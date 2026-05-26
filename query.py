@@ -6,6 +6,7 @@ def ask_question(question, k=4):
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
+    #
 
     db = FAISS.load_local(
         "faiss_index",
