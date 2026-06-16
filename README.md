@@ -23,7 +23,7 @@ document context**, reducing hallucinations.
 5. An LLM generates answers using only the retrieved context  
 
 --
- 🛠 Tech Stack
+ Tech Stack
 
 - Python  
 - LangChain  
