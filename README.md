@@ -12,8 +12,6 @@ vector search and large language models .
 Unlike standard LLMs, this system generates answers **grounded in retrieved
 document context**, reducing hallucinations.
  
-
-
  How the System Works
 
 1. Documents (PDF) are loaded and split into chunks  
