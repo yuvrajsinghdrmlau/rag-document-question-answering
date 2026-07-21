@@ -18,6 +18,8 @@ document context**, reducing hallucinations.
 4. Relevant chunks are retrieved for a user query  
 5. An LLM generates answers using only the retrieved context  
 
+
+
 --
  Tech Stack
 
