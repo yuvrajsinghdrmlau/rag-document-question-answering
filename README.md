@@ -13,7 +13,6 @@ document context**, reducing hallucinations.
  How the System Works
 
 
-
 1. Documents (PDF) are loaded and split into chunks  
 2. Each chunk is converted into vector embeddings  
 3. FAISS is used for fast similarity search  
